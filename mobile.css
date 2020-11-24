@@ -1,0 +1,23 @@
+#navbar {
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 0.60rem;
+    overflow: hidden;
+    height: 80px;
+}
+#details .items {
+    flex-direction: column
+}
+#details .items .item {
+    width: 100%;
+}
+#extralar {
+    padding: 0;
+}
+.extralar {
+    padding: 0;
+}
+.extralar .extra {
+    flex-direction: column;
+    
+}

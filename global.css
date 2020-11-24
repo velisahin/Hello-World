@@ -1,0 +1,74 @@
+
+.text-center{
+    text-align: center;
+}
+.heading-small {
+    font-size: 1.25rem;
+}
+.heading-medium {
+    font-size: 1.5rem;
+}
+.heading-big {
+    font-size: 1.75rem;
+}
+
+/* Colors */
+.bg-dark-blue {
+    background: rgb(27, 27, 99);
+}
+.bg-light-blue {
+    background: lightblue;
+}
+.contanier {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+ /* Buttons */
+
+ .btn {
+     margin-top: 1.25rem;
+     padding: 0.8rem 3rem;
+     border-radius: 7px;
+     letter-spacing: 0.5px;
+ }
+ .btn-block{
+     width: 100%;
+ }
+ .btn-primary{
+     background: darkblue;
+ }
+ .btn-primary:hover{
+     color: lightblue;
+     background: white;
+     border: 0.5px solid darkblue;
+ }
+
+ /* Forms */
+
+ .form-group {
+     padding: 0.25rem 0;
+ }
+ .form-group label {
+     display: block;
+ }
+ .form-control {
+     width: 100%;
+     padding: 0.4rem;
+     font-size: 1rem;
+     resize: none;
+     border-radius: 7px;
+ }
+ #contact .contact-form ul {
+     list-style-type: none;
+     display: flex;
+     margin-top: 1rem;
+     align-self: center;
+ }
+ #contact .contact-form ul li a {
+     padding: 1rem;
+     font-size: 2rem;
+ }
+ #contact .contact-form ul li a:hover{
+     opacity: 0.8;
+ }
+ 

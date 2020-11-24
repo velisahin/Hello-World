@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+html{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+/* Navbar */
+#navbar {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a{
+    padding: 0.50rem;
+}
+#navbar ul li a:hover{
+    background: rgb(93, 197, 231);
+    border-radius: 4px;
+}
+/* Home */
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    border-bottom: 1px gray solid;
+
+
+}
+#home img {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    opacity: 1;
+    }
+.name {
+    text-align: center;
+    
+}
+/* Details */
+#details {
+    color: white;
+    padding: 1rem;
+   
+
+}
+#details .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem;
+}
+#details .items .item {
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+}
+#details .items .item:hover {
+    color: white;
+    border: 1px rgb(93, 197, 231) solid;
+    border-radius: 7px;
+    background: rgb(93, 197, 231);
+}
+#details .items .item #icon {
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+
+
+/* Extra */
+
+#extralar {
+    color: #333;
+    padding: 1rem;
+}
+.extralar {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.extralar .extra {
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.extralar .extra .extra-image {
+    margin-right: 0.5rem;
+    position: relative;
+}
+.extralar .extra .extra-image span {
+    background: red;
+    padding: 0.25rem;
+    border-radius: 4px;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.extralar .extra .extra-info .title {
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+.extralar .extra .extra-info .description {
+    letter-spacing: 0.1rem;
+    margin-bottom: 0.25rem;
+    opacity: 0.7;
+}
+.extralar .extra .extra-info .instructor {
+    font-size: 0.8rem;
+    opacity: 0.7;
+    margin-bottom: 0.25rem;
+}
+.extralar .extra .extra-info .rating {
+    font-size: 0.8rem;
+    opacity: 0.7;
+    margin-bottom: 0.25rem;
+}
+
+/* Contact */
+
+#contact {
+    color: #fff;
+    padding: 1rem;
+}
+#contact .contact-form {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
